@@ -4,7 +4,6 @@ C++ library that lets you scan for and change different types of data internally
 Example usage: 
 
 ```#include "memscan.h"
-
 int main() {
     Mem mem;
     std::vector<size_t> addrs;
