@@ -1,8 +1,9 @@
 # Internal-Memory-Scan-Lib
 C++ library that lets you scan for and change different types of data internally.
 
-`Example usage: 
-#include "memscan.h"
+Example usage: 
+
+```#include "memscan.h"
 
 int main() {
     Mem mem;
@@ -12,4 +13,4 @@ int main() {
 
 //change addresses in "addrs" to 100
     mem.ReplaceFloat(addrs, 100.0f);
-}`
+}```
